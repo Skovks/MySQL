@@ -22,7 +22,7 @@ public class App
             Statement stmt = con.createStatement(); 
             //Creación de Query | Insertar valores 
             //Estos valores deben coincidir con los valores que se asignaron durante la creación de la tabla 
-            stmt.executeUpdate("INSERT INTO alumnos VALUES(4,'Javier','Marcial','2152000555')"); 
+            stmt.executeUpdate("INSERT INTO alumnos VALUES(2,'Javier','Marcial','2152000555')"); 
             //Se cierra la conexión 
             con.close();  
         }
