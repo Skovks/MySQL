@@ -16,7 +16,7 @@ public class App
         //intento de accion en este programa
         try {
             //codigo del try
-            Class.forName("com.mysql.jdbc.Driver"); //Haciendo uso del conector de java
+            Class.forName("com.mysql.cj.jdbc.Driver"); //Haciendo uso del conector de java
             //conexion a base de datos, 4 parametros: Servicio de datos, nombre de usuario, contrasena 
             Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/datos", "skovks17", "osiris117");
             
